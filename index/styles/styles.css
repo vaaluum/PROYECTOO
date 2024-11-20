@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f4f4f4;
+    background-image: url("../../index/img/src/fondo.png");
+    background-size: 300px;
+    background-position: center;
+  }
+  
+  nav {
+    background-color: bisque;
+    width: 100%;
+    font-family: 'tough';
+    
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+    
+  }
+  
+  .menu li {
+    position: relative;
+    
+  }
+  
+  .menu a {
+    display: block;
+    padding: 15px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .menu li:hover {
+    background-color: rgb(255, 140, 0);
+  }
+
+  .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%; /* Esto coloca el submenú justo debajo del ítem */
+    left: 0;
+    background-color: rgb(255, 140, 0);
+    display: none; /* Oculto por defecto */
+    
+  }
+  
+  .submenu li {
+    width: 200px;
+    
+  }
+  
+  .submenu a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  
+  .submenu a:hover {
+    background-color: rgb(255, 178, 85);
+  }
+  
+  /* Mostrar el submenú al pasar el mouse */
+  .dropdown:hover .submenu {
+    display: block;
+    
+  }
+  
+
+
+
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .search-container {
+    margin-top: 20px;
+  }
+  
+  #search-bar {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  #search-bar:focus {
+    border-color: #666;
+  }
+  
+  .description {
+    margin: 30px;
+    text-align: center;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para mejorar la legibilidad */
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    width: 80%;
+    
+ 
+  }
+  
+  .service {
+    text-align: center;
+    margin: 10px;
+    
+  }
+  
+  .service img {
+
+    border-radius: 10%;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    overflow: hidden;
+    transition: 0.5s;
+
+  }
+  img:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  
+
+ .logo{
+  padding-top: 8%;
+    position: relative;
+    width: 700px;
+    
+    
+  }
+
+  footer{
+   
+    font-family: 'tough';
+    margin-top: 180px;
+    background-color: bisque;
+    text-decoration: none;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+  }
+  

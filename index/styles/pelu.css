@@ -1,0 +1,210 @@
+body {
+    font-family: 'tough';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f4f4f4;
+    background-image: url("../../index/img/src/fondo.png");
+    background-position: center;
+    
+  }
+
+
+
+  nav {
+    background-color: bisque;
+    width: 100%;
+    font-family: 'tough';
+    
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+    
+  }
+  
+  .menu li {
+    position: relative;
+    
+  }
+  
+  .menu a {
+    display: block;
+    padding: 15px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .menu li:hover {
+    background-color: rgb(255, 140, 0);
+  }
+
+  .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%; /* Esto coloca el submenú justo debajo del ítem */
+    left: 0;
+    background-color: rgb(255, 140, 0);
+    display: none; /* Oculto por defecto */
+    
+  }
+  
+  .submenu li {
+    width: 200px;
+    
+  }
+  
+  .submenu a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  
+  .submenu a:hover {
+    background-color: rgb(255, 178, 85);
+  }
+  
+  /* Mostrar el submenú al pasar el mouse */
+  .dropdown:hover .submenu {
+    display: block;
+    
+  }
+
+  
+h1{
+  text-align: center;
+  padding-bottom: 5%;
+}
+table{
+  padding-left: 10px;
+    box-sizing: border-box;
+    display: table;
+    
+}
+
+  td:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: 0.5s;
+    
+    
+  }
+  
+
+  .logo{
+    position: absolute;
+    width: 700px;
+    padding-left: 840px;
+    padding-top: 30px;
+  }
+
+  #TITULO{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'tough';
+  }
+
+  #c2{
+    font-family:'supercharge';
+    text-align: left;
+    padding-left: 20px;
+    font-size: 15px;
+    
+  }
+
+  #TODO{
+    
+    position: absolute;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+
+  }
+
+  h2{
+    padding-bottom: 100%;
+}
+
+  .cuadro {
+    position: static;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    border-radius: 3%;
+    text-align: right;
+    padding-right: 10px;
+    border: solid 2px rgb(255, 187, 0);
+    background-color: bisque;
+    font-size: 15px;
+
+}
+
+tr{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.union{
+  display: flex;
+}
+
+.cuadro p{
+    font-family:'supercharge';
+    padding-left: 20px;
+}
+
+.imagecontainer img{
+    border-radius: 10%;
+    object-fit: cover;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 250px;
+    height: 250px;
+}
+
+.imagecontainer{
+ 
+    position: relative;
+    text-align: left;
+    font-size: 10px;
+    padding-bottom: 1%;
+    
+  
+}
+
+.hidden{
+    display: none;
+}
+
+#text {
+    margin-top: 5px;
+    color: #333;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+#text.show {
+    display: block;
+    opacity: 1;
+}
+
+footer{
+  
+  margin-top: 80px;
+  background-color: bisque;
+  text-decoration: none;
+
+}
+
+a{
+  text-decoration: none;
+}
